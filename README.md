@@ -1,2 +1,33 @@
-# DJ
-PromptDJ MIDI is an experimental full-stack web application that combines Web MIDI, Web Audio, and AI-powered interactions to create a next-generation browser-based DJ experience. It allows users to connect MIDI devices and control audio playback and effects through both hardware input and smart prompts.
+# 🎧 PromptDJ MIDI
+
+PromptDJ MIDI is an interactive, browser-based audio experiment built with TypeScript, Web Audio API, and Vite. It allows users to generate and manipulate music through real-time controls and prompts.
+
+🚀 **Live Demo:** [https://projectdj.vercel.app](https://projectdj.vercel.app)
+
+---
+
+## ✨ Features
+
+- 🎛️ Real-time audio synthesis and control  
+- 🎹 MIDI input/output support  
+- 🔁 Loop, play/pause, and reset control  
+- 💡 Prompt-based interaction for music generation  
+- 🎨 Built with TypeScript and styled with modern CSS
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: TypeScript, Vite, HTML/CSS  
+- **Audio**: Web Audio API, MIDI API  
+- **Deployment**: Vercel
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+git clone https://github.com/JonathanRaffael/DJ.git
+cd DJ
+npm install
+npm run dev
