@@ -1,0 +1,27 @@
+/* Reset default margin & full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent scrolling (useful for full-screen apps) */
+body {
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111; /* dark background for better contrast */
+  color: #fff;
+}
+
+/* Dragging mode styling */
+body.dragging {
+  cursor: ns-resize;
+}
+
+/* Disable interactions while dragging */
+body.dragging * {
+  user-select: none;
+  pointer-events: none;
+  cursor: inherit;
+}
